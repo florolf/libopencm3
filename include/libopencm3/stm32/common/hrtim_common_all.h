@@ -2698,7 +2698,7 @@ specific memorymap.h header before including this header file.*/
 
 #define HRTIM_TIMx_OUT_FAULT2_NOOP         (0 << HRTIM_TIMx_OUT_FAULT2_SHIFT)
 #define HRTIM_TIMx_OUT_FAULT2_ACTIVE       (1 << HRTIM_TIMx_OUT_FAULT2_SHIFT)
-#define HRTIM_TIMx_OUT_FAULT2_INACTIV      (2 << HRTIM_TIMx_OUT_FAULT2_SHIFT)
+#define HRTIM_TIMx_OUT_FAULT2_INACTIVE     (2 << HRTIM_TIMx_OUT_FAULT2_SHIFT)
 #define HRTIM_TIMx_OUT_FAULT2_HIGHZ        (3 << HRTIM_TIMx_OUT_FAULT2_SHIFT)
 
 /* IDLES2: Output 2 Idle State */
