@@ -153,6 +153,12 @@ specific memorymap.h header before including this header file.*/
 /* --- HRTIM_TIMx registers ------------------------------------------------- */
 #define HRTIM_TIMx_BASE(x)             (HRTIM_BASE + 0x80 + (x) * 0x100)
 
+#define HRTIM_TIMA                     0
+#define HRTIM_TIMB                     1
+#define HRTIM_TIMC                     2
+#define HRTIM_TIMD                     3
+#define HRTIM_TIME                     4
+
 /* Timerx Control Register (TIMCR) */
 #define HRTIM_TIMx_TIMCR(x)            MMIO32(HRTIM_TIMx_BASE(x) + 0x00)
 
