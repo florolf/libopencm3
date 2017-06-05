@@ -151,7 +151,7 @@ specific memorymap.h header before including this header file.*/
 
 
 /* --- HRTIM_TIMx registers ------------------------------------------------- */
-#define HRTIM_TIMx_BASE(x)             (HRTIM_BASE + 0x80 + (x) * 0x100)
+#define HRTIM_TIMx_BASE(x)             (HRTIM_BASE + 0x80 + (x) * 0x80)
 
 #define HRTIM_TIMA                     0
 #define HRTIM_TIMB                     1
